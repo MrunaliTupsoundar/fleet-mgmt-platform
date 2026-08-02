@@ -1,0 +1,7 @@
+package com.mrunali.fleet_mgmt_platform.exception;
+
+public class UserAlreadyExistsException extends RuntimeException {
+    public UserAlreadyExistsException(String message) {
+        super(message);
+    }
+}
